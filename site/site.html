@@ -1,0 +1,39 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Calculadora</title>
+        <script src="contas.js"></script>
+    </head>
+
+<body>
+
+<header>
+    <h1>Calculadora</h1>
+</header>
+
+<form action="#">
+    <p>
+        Numero1: <input id="n1" type="text" />
+        <br/>
+        Numero2: <input id="n2" type="text" />
+    </p>
+    <p>
+        <input type="radio" name="op" id="adicao" checked/>
+        <label for="adicao">Adicao</label><br />
+        <input type="radio" name="op" id="subtracao"/>
+        <label for="subtracao">Subtracao</label><br />
+        <input type="radio" name="op" id="multiplicacao"/>
+        <label for="multiplicacao">Multiplicacao</label><br />
+        <input type="radio" name="op" id="divisao" checked/>
+        <label for="divisao">Divisao</label><br />
+        <input type="radio" name="op" id="exponencial" checked/>
+        <label for="exponencial">Exponencial</label><br />
+    </p>
+    <p>Resultado: <input id="result" type="text" /></p>
+    <p><input type="button" value="Calcular" onclick="contas()" /></p>
+
+</form>
+
+</body>
+</html> 
